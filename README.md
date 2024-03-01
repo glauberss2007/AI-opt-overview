@@ -5,7 +5,9 @@ Embarking on an extensive training journey, this repository covers a spectrum of
 ## Resources
 
 Solvers: CPLEX – Gurobi – GLPK – CBC – IPOPT – Couenne – SCIP
+
 Frameworks: Pyomo – OR-Tools – PuLP
+
 Libs: Geneticalgorithm – Pyswarm – Numpy – Pandas – Matplotlib – Spyder
 
 ## Projects
