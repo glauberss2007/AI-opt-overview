@@ -61,7 +61,8 @@ Linear programming (LP) exhibits several distinct characteristics that render it
 
 ![img.png](img.png)
 
-Objective Function: $ max x + y $
+$x^2$
+Objective Function: $max x + y$
 
 Constraints: $ -x + 2y \leq 8 $
 
