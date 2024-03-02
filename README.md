@@ -63,10 +63,15 @@ Linear programming (LP) exhibits several distinct characteristics that render it
 
 Objective Function: $max$ $x+y$
 Constraints: 
+
 $-x+2y\leq8$
+
 $2x+y\leq14$
+
 $2x-y\leq10$
-$0leqx\leq10$
-$0\leqy\leq10$
+
+$0 \leq x \leq 10$
+
+$0 \leq y \leq 10$
 
 
