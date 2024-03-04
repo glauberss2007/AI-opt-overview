@@ -382,10 +382,17 @@ This is a power supply flow circuit, that must be optimized to reduce the costs.
 
 ![img_7.png](img_7.png)
 
-Objective Function: $min\sum_g{C_gP_g}$
+Objective Function: $min$ \sum_g{C_gP_g}$
 
 Constraints:
-- $\sum_{g\in\Omega_n}{P_g}-\sum_{l\in\Omega_{n=l(s)}}{P_l}+\sum_{l\in\Omega_{n=l(r)}}{P_l}=\sum_{d\in\Omega_{n}}{P_d}, \forall n$
+
+GitHub's Markdown rendering engine does not natively support LaTeX for mathematical notation. However, you can use alternative methods to display mathematical expressions in a GitHub README.md file.
+
+One common approach is to use an online LaTeX-to-image converter, such as CodeCogs or LaTeXiT, to generate images of your mathematical expressions and then include those images in your README.md. Here is an example:
+
+markdown
+Copy code
+![Equation 1](https://latex.codecogs.com/png.latex?\sum_{g\in\Omega_n}{P_g}-\sum_{l\in\Omega_{n=l(s)}}{P_l}+\sum_{l\in\Omega_{n=l(r)}}{P_l}=\sum_{d\in\Omega_{n}}{P_d}, \forall n)
 - $P_l=B_l(\theta_{l(n=s)-\theta_{l(n=r)})})), \forall l$
 - $0 \leq P_g \leq P_g^{max} \forall l$
 - $-P_l^{max} \leq P_l \leq P_l^{max} \forall l$
