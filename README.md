@@ -392,7 +392,7 @@ One common approach is to use an online LaTeX-to-image converter, such as CodeCo
 
 markdown
 Copy code
-![Equation 1](https://latex.codecogs.com/png.latex?\sum_{g\in\Omega_n}{P_g}-\sum_{l\in\Omega_{n=l(s)}}{P_l}+\sum_{l\in\Omega_{n=l(r)}}{P_l}=\sum_{d\in\Omega_{n}}{P_d}, \forall n)
+- $\sum_{g\in\Omega_n}{P_g}-\sum_{l\in\Omega_{n=l(s)}}{P_l}+\sum_{l\in\Omega_{n=l(r)}}{P_l}=\sum_{d\in\Omega_{n}}{P_d}, \forall n$
 - $P_l=B_l(\theta_{l(n=s)-\theta_{l(n=r)})})), \forall l$
 - $0 \leq P_g \leq P_g^{max} \forall l$
 - $-P_l^{max} \leq P_l \leq P_l^{max} \forall l$
